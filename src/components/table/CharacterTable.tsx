@@ -100,7 +100,7 @@ export default function CharacterTable() {
                                     <tr
                                         {...headerGroup.getHeaderGroupProps()}
                                         key={uuidv4()}
-                                        className="h-11"
+                                        className="h-12 sticky top-0 bg-[#fff] z-10"
                                     >
                                         {headerGroup.headers.map((column: any) => (
                                             <th
